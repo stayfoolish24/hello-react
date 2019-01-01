@@ -1,10 +1,9 @@
-import React, { Component } from "react"
-import MyComponent from "./MyComponent"
+import React, { Component } from 'react'
+import EventPractice from './EventPractice'
 
 class App extends Component {
   render() {
-    return <MyComponent name="React" age={4} />
-    // return <MyComponent />
+    return <EventPractice />
   }
 }
 
